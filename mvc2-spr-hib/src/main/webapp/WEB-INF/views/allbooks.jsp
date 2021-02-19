@@ -36,5 +36,6 @@
 			</c:forEach>
 		</tbody>
 	</table>
+	<a href="addbook">addbook</a>
 </body>
 </html>
