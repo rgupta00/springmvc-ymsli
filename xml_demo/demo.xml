@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+	well formness: sy
+	
+	validatity of xml
+		DTD (Doc type def): dont supprot namespace, rich data type
+		
+		Schema: very powerful way to validate a xml
+ -->
+
+<emps>
+	<emp>
+		<name>raj</name>
+		<address>delhi</address>
+		<age>44</age>
+		<data>i do work</data>
+		<comparison><![CDATA[6 is < 7 & 7 > 6]]></comparison>
+	</emp>
+		<emp>
+		<name>amit</name>
+		<address>delhi</address>
+		<age>44</age>
+		<data> 5 &lt; 10 </data>
+	</emp>
+	<emp>
+		<name>sumit</name>
+		<address>delhi</address>
+		<age>44</age>
+		<data></data>
+	</emp>
+</emps>

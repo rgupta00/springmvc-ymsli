@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE emps SYSTEM "emp1.dtd">
+<emps>
+	<emp eid="e72">
+		<name>raj</name>
+		<salary>4000</salary>
+	</emp>
+
+	<emp eid="e22" lang="c">
+		<name>ekta</name>
+		<salary>4000</salary>
+	</emp>
+</emps>

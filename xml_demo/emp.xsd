@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+targetNamespace="http://www.ymsli.in/emp" 
+xmlns:tns="http://www.ymsli.in/emp" 
+     elementFormDefault="unqualified">
+
+    <element name="emps" type="tns:emps"></element>
+
+	<complexType name="emps">
+		<sequence>
+			<element name="ename" type="string" maxOccurs="1"
+				minOccurs="1">
+			</element>
+			<element name="address" type="string"></element>
+			<element name="phone" type="string"></element>
+			<element name="email" type="string"></element>
+			<element name="dob" type="date"></element>
+			<element name="salary" type="double"></element>
+			<element name="projects" type="tns:project"
+				maxOccurs="unbounded" minOccurs="1"></element>
+		</sequence>
+    </complexType>
+
+    <complexType name="project">
+    	<sequence>
+    		<element name="pname" type="string"></element>
+    		<element name="projmgr" type="string"></element>
+    		<element name="startdate" type="date"></element>
+    	</sequence>
+    </complexType>
+</schema>

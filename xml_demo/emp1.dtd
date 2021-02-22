@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT emps (emp+)>
+<!ELEMENT emp (name,salary)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT salary (#PCDATA)>
+<!ATTLIST emp eid ID #REQUIRED>
+<!ATTLIST emp lang (java|c|python) "java">

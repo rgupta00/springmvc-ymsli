@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:emps xmlns:tns="http://www.ymsli.in/emp" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.ymsli.in/emp emp.xsd ">
+  <ename>ename</ename>
+  <address>address</address>
+  <phone>phone</phone>
+  <email>email</email>
+  <dob>2001-01-01</dob>
+  <salary>0.0</salary>
+  <projects>
+    <pname>pname</pname>
+    <projmgr>projmgr</projmgr>
+    <startdate>2001-01-01</startdate>
+  </projects>
+</tns:emps>
